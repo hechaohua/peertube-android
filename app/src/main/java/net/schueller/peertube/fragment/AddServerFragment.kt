@@ -28,11 +28,11 @@ import androidx.activity.result.ActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
-import net.schueller.peertube.R
-import net.schueller.peertube.activity.SearchServerActivity
+import com.driverolder.R
+import com.driverolder.activity.SearchServerActivity
 import net.schueller.peertube.database.Server
 import net.schueller.peertube.database.ServerViewModel
-import net.schueller.peertube.databinding.FragmentAddServerBinding
+import com.driverolder.databinding.FragmentAddServerBinding
 import net.schueller.peertube.helper.APIUrlHelper
 import net.schueller.peertube.utils.hideKeyboard
 

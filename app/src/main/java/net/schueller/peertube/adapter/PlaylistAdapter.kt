@@ -20,7 +20,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import net.schueller.peertube.database.Video
-import net.schueller.peertube.databinding.RowPlaylistBinding
+import com.driverolder.databinding.RowPlaylistBinding
 
 class PlaylistAdapter(private val mVideos: MutableList<Video>, private val onClick: (Video) -> Unit) : RecyclerView.Adapter<PlaylistAdapter.VideoViewHolder>() {
 

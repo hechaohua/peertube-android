@@ -22,7 +22,7 @@ import android.os.Bundle
 import android.util.Log
 import android.view.View
 import android.widget.ImageButton
-import net.schueller.peertube.R
+import com.driverolder.R
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import net.schueller.peertube.helper.APIUrlHelper

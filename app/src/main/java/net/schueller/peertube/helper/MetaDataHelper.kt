@@ -18,8 +18,8 @@ package net.schueller.peertube.helper
 
 import android.content.Context
 import android.text.format.DateUtils
-import net.schueller.peertube.R
-import net.schueller.peertube.R.string
+import com.driverolder.R
+import com.driverolder.R.string
 import net.schueller.peertube.model.Account
 import net.schueller.peertube.model.Avatar
 import net.schueller.peertube.model.Video

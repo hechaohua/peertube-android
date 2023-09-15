@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
-package net.schueller.peertube.activity;
+package com.driverolder.activity;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -29,9 +29,9 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceFragmentCompat;
 
 import androidx.preference.SwitchPreference;
-import net.schueller.peertube.BuildConfig;
-import net.schueller.peertube.R;
-import net.schueller.peertube.provider.SearchSuggestionsProvider;
+import com.driverolder.BuildConfig;
+import com.driverolder.R;
+import com.driverolder.provider.SearchSuggestionsProvider;
 
 public class SettingsActivity extends CommonActivity {
 

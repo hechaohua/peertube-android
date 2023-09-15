@@ -28,9 +28,9 @@ import android.widget.TextView;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 import com.mikepenz.iconics.Iconics;
 
-import net.schueller.peertube.R;
+import com.driverolder.R;
 import net.schueller.peertube.model.File;
-import net.schueller.peertube.service.VideoPlayerService;
+import com.driverolder.service.VideoPlayerService;
 
 import java.util.ArrayList;
 

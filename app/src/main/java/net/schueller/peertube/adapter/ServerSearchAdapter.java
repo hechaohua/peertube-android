@@ -25,8 +25,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 
-import net.schueller.peertube.R;
-import net.schueller.peertube.activity.SearchServerActivity;
+import com.driverolder.R;
+import com.driverolder.activity.SearchServerActivity;
 import net.schueller.peertube.helper.APIUrlHelper;
 import net.schueller.peertube.model.Server;
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           xmlns:tools="http://schemas.android.com/tools"
-          package="net.schueller.peertube">
+          package="com.driverolder">
     <!-- required to play video in background via notification -->
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/> <!-- connect to peertube server -->
     <uses-permission android:name="android.permission.INTERNET"/> <!-- required for torrent downloading -->
@@ -68,7 +68,7 @@
                 android:theme="@style/AppTheme.NoActionBar"/> <!-- Content provider for search suggestions -->
         <provider
                 android:name=".provider.SearchSuggestionsProvider"
-                android:authorities="net.schueller.peertube.provider.SearchSuggestionsProvider"
+                android:authorities="com.driverolder.provider.SearchSuggestionsProvider"
                 android:enabled="true"
                 android:exported="false"/>
 

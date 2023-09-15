@@ -20,7 +20,7 @@ import static net.schueller.peertube.network.UnsafeOkHttpClient.getUnsafeOkHttpC
 
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
-import net.schueller.peertube.R;
+import com.driverolder.R;
 import okhttp3.OkHttpClient;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;

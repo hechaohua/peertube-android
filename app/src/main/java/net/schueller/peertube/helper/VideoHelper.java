@@ -23,7 +23,7 @@ import android.os.Build;
 import android.preference.PreferenceManager;
 import android.util.Log;
 
-import net.schueller.peertube.R;
+import com.driverolder.R;
 
 public class VideoHelper {
 

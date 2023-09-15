@@ -23,7 +23,7 @@ import android.util.Patterns;
 import android.webkit.URLUtil;
 import android.widget.Toast;
 
-import net.schueller.peertube.R;
+import com.driverolder.R;
 
 public class APIUrlHelper{
 

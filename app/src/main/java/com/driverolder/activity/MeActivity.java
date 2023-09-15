@@ -15,7 +15,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package net.schueller.peertube.activity;
+package com.driverolder.activity;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -30,7 +30,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.appcompat.widget.Toolbar;
 import com.squareup.picasso.Picasso;
-import net.schueller.peertube.R;
+import com.driverolder.R;
 import net.schueller.peertube.helper.APIUrlHelper;
 import net.schueller.peertube.helper.ErrorHelper;
 import net.schueller.peertube.model.Avatar;
@@ -44,7 +44,7 @@ import retrofit2.Response;
 
 import java.util.Objects;
 
-import static net.schueller.peertube.application.AppApplication.getContext;
+import static com.driverolder.application.AppApplication.getContext;
 
 public class MeActivity extends CommonActivity {
 

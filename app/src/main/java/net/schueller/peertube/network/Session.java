@@ -20,10 +20,10 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
-import net.schueller.peertube.R;
-import net.schueller.peertube.application.AppApplication;
+import com.driverolder.R;
+import com.driverolder.application.AppApplication;
 
-import static net.schueller.peertube.service.LoginService.refreshToken;
+import static com.driverolder.service.LoginService.refreshToken;
 
 public class Session {
 

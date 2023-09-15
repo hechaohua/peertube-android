@@ -14,12 +14,10 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
-package net.schueller.peertube.activity
+package com.driverolder.activity
 
-import android.app.Activity
 import android.app.AlertDialog
 import android.content.DialogInterface
-import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
@@ -28,16 +26,15 @@ import androidx.fragment.app.FragmentManager
 import androidx.preference.PreferenceManager
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.RecyclerView
-import net.schueller.peertube.R
+import com.driverolder.R
 import net.schueller.peertube.adapter.ServerListAdapter
 import net.schueller.peertube.database.Server
 import net.schueller.peertube.database.ServerViewModel
-import net.schueller.peertube.databinding.ActivityServerAddressBookBinding
+import com.driverolder.databinding.ActivityServerAddressBookBinding
 import net.schueller.peertube.fragment.AddServerFragment
 import net.schueller.peertube.helper.APIUrlHelper
 import net.schueller.peertube.network.Session
-import net.schueller.peertube.service.LoginService
-import java.util.*
+import com.driverolder.service.LoginService
 
 class ServerAddressBookActivity : CommonActivity() {
 

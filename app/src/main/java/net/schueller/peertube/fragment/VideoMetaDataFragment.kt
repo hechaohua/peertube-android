@@ -30,7 +30,7 @@ import androidx.fragment.app.activityViewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.mikepenz.iconics.Iconics
-import net.schueller.peertube.R
+import com.driverolder.R
 import net.schueller.peertube.adapter.MultiViewRecycleViewAdapter
 import net.schueller.peertube.database.VideoViewModel
 import net.schueller.peertube.helper.APIUrlHelper
@@ -42,7 +42,7 @@ import net.schueller.peertube.model.VideoList
 import net.schueller.peertube.model.ui.VideoMetaViewItem
 import net.schueller.peertube.network.GetVideoDataService
 import net.schueller.peertube.network.RetrofitInstance
-import net.schueller.peertube.service.VideoPlayerService
+import com.driverolder.service.VideoPlayerService
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

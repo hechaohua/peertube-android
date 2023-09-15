@@ -28,7 +28,7 @@ import android.os.Environment
 import android.webkit.URLUtil
 import android.widget.Toast
 import androidx.core.app.ActivityCompat
-import net.schueller.peertube.R
+import com.driverolder.R
 import net.schueller.peertube.model.Video
 import android.content.ContextWrapper
 

@@ -3,8 +3,8 @@ package net.schueller.peertube.adapter;
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import net.schueller.peertube.R
-import net.schueller.peertube.databinding.*
+import com.driverolder.R
+import com.driverolder.databinding.*
 import net.schueller.peertube.fragment.VideoMetaDataFragment
 import net.schueller.peertube.model.*
 import net.schueller.peertube.model.ui.OverviewRecycleViewItem

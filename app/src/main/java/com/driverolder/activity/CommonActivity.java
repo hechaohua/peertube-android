@@ -15,7 +15,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package net.schueller.peertube.activity;
+package com.driverolder.activity;
 
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
@@ -23,7 +23,7 @@ import android.content.res.Resources;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 
-import net.schueller.peertube.R;
+import com.driverolder.R;
 
 import java.util.Locale;
 

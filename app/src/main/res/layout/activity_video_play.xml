@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:keepScreenOn="true"
-    tools:context="net.schueller.peertube.activity.VideoPlayActivity">
+    tools:context="com.driverolder.activity.VideoPlayActivity">
 
     <RelativeLayout
 

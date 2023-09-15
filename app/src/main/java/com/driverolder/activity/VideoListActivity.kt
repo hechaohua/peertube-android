@@ -14,11 +14,12 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
-package net.schueller.peertube.activity
+package com.driverolder.activity
 
 import android.Manifest.permission
 import android.R.drawable
 import android.R.string
+import android.annotation.SuppressLint
 import android.app.Activity
 import android.app.AlertDialog.Builder
 import android.app.SearchManager
@@ -46,9 +47,9 @@ import androidx.recyclerview.widget.RecyclerView.OnScrollListener
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.navigation.NavigationBarView
-import net.schueller.peertube.R
-import net.schueller.peertube.R.id
-import net.schueller.peertube.R.layout
+import com.driverolder.R
+import com.driverolder.R.id
+import com.driverolder.R.layout
 import net.schueller.peertube.adapter.MultiViewRecycleViewAdapter
 import net.schueller.peertube.helper.APIUrlHelper
 import net.schueller.peertube.helper.ErrorHelper
@@ -58,8 +59,8 @@ import net.schueller.peertube.network.GetUserService
 import net.schueller.peertube.network.GetVideoDataService
 import net.schueller.peertube.network.RetrofitInstance
 import net.schueller.peertube.network.Session
-import net.schueller.peertube.provider.SearchSuggestionsProvider
-import net.schueller.peertube.service.VideoPlayerService
+import com.driverolder.provider.SearchSuggestionsProvider
+import com.driverolder.service.VideoPlayerService
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -157,6 +158,7 @@ class VideoListActivity : CommonActivity() {
                 return true
             }
 
+            @SuppressLint("Range")
             private fun getSuggestion(position: Int): String {
                 val cursor = searchView.suggestionsAdapter.getItem(
                     position

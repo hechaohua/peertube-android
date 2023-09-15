@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
-package net.schueller.peertube.activity
+package com.driverolder.activity
 
 import android.app.AlertDialog
 import android.content.DialogInterface
@@ -23,12 +23,12 @@ import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.RecyclerView
-import net.schueller.peertube.R
+import com.driverolder.R
 import net.schueller.peertube.adapter.MultiViewRecyclerViewHolder
 import net.schueller.peertube.adapter.PlaylistAdapter
 import net.schueller.peertube.database.Video
 import net.schueller.peertube.database.VideoViewModel
-import net.schueller.peertube.databinding.ActivityPlaylistBinding
+import com.driverolder.databinding.ActivityPlaylistBinding
 
 class PlaylistActivity : CommonActivity() {
 

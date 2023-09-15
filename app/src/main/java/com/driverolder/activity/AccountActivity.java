@@ -15,7 +15,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package net.schueller.peertube.activity;
+package com.driverolder.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -26,13 +26,12 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.google.android.material.bottomnavigation.LabelVisibilityMode;
 import com.google.android.material.navigation.NavigationBarView;
 import com.mikepenz.iconics.IconicsDrawable;
 import com.mikepenz.iconics.typeface.library.fontawesome.FontAwesome;
 import com.squareup.picasso.Picasso;
 
-import net.schueller.peertube.R;
+import com.driverolder.R;
 import net.schueller.peertube.adapter.ChannelAdapter;
 import net.schueller.peertube.adapter.MultiViewRecycleViewAdapter;
 import net.schueller.peertube.helper.APIUrlHelper;

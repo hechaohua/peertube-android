@@ -14,20 +14,21 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
-package net.schueller.peertube.provider;
+package com.driverolder.application;
 
-import android.content.SearchRecentSuggestionsProvider;
+import android.app.Application;
+import android.content.Context;
 
-public class SearchSuggestionsProvider extends SearchRecentSuggestionsProvider {
+public class AppApplication extends Application {
+    private static Application instance;
 
-    public final static String AUTHORITY = SearchSuggestionsProvider.class.getName();
-    public static final int MODE = SearchRecentSuggestionsProvider.DATABASE_MODE_QUERIES;
-
-    public SearchSuggestionsProvider()
-    {
-        setupSuggestions(AUTHORITY, MODE);
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        instance = this;
     }
 
-    // TODO: add search suggestions once they become available in peertube server
-
+    public static Context getContext() {
+        return instance.getApplicationContext();
+    }
 }

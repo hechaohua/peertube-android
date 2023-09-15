@@ -21,7 +21,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import net.schueller.peertube.adapter.ServerListAdapter.ServerViewHolder
 import net.schueller.peertube.database.Server
-import net.schueller.peertube.databinding.RowServerAddressBookBinding
+import com.driverolder.databinding.RowServerAddressBookBinding
 import net.schueller.peertube.utils.visibleIf
 
 class ServerListAdapter(private val mServers: MutableList<Server>, private val onClick: (Server) -> Unit, private val onEditClick: (Server) -> Unit) : RecyclerView.Adapter<ServerViewHolder>() {

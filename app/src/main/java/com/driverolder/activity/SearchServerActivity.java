@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
-package net.schueller.peertube.activity;
+package com.driverolder.activity;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.widget.Toolbar;
@@ -32,9 +32,8 @@ import android.view.View;
 import android.view.inputmethod.EditorInfo;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import net.schueller.peertube.R;
+import com.driverolder.R;
 import net.schueller.peertube.adapter.ServerSearchAdapter;
 import net.schueller.peertube.helper.APIUrlHelper;
 import net.schueller.peertube.helper.ErrorHelper;

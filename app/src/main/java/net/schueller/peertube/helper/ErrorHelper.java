@@ -19,7 +19,7 @@ package net.schueller.peertube.helper;
 import android.content.Context;
 import android.widget.Toast;
 
-import net.schueller.peertube.R;
+import com.driverolder.R;
 
 import java.io.IOException;
 

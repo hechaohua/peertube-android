@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
-package net.schueller.peertube.service;
+package com.driverolder.service;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -24,8 +24,8 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 
-import net.schueller.peertube.R;
-import net.schueller.peertube.application.AppApplication;
+import com.driverolder.R;
+import com.driverolder.application.AppApplication;
 import net.schueller.peertube.helper.APIUrlHelper;
 import net.schueller.peertube.model.OauthClient;
 import net.schueller.peertube.model.Token;
@@ -36,7 +36,7 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-import static net.schueller.peertube.application.AppApplication.getContext;
+import static com.driverolder.application.AppApplication.getContext;
 
 public class LoginService {
 

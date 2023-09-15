@@ -27,8 +27,8 @@ import android.widget.TextView;
 import com.mikepenz.iconics.Iconics;
 import com.squareup.picasso.Picasso;
 
-import net.schueller.peertube.R;
-import net.schueller.peertube.activity.VideoPlayActivity;
+import com.driverolder.R;
+import com.driverolder.activity.VideoPlayActivity;
 import net.schueller.peertube.helper.APIUrlHelper;
 import net.schueller.peertube.helper.MetaDataHelper;
 import net.schueller.peertube.intents.Intents;
@@ -41,7 +41,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.widget.PopupMenu;
 import androidx.recyclerview.widget.RecyclerView;
 
-import static net.schueller.peertube.activity.VideoListActivity.EXTRA_VIDEOID;
+import static com.driverolder.activity.VideoListActivity.EXTRA_VIDEOID;
 
 public class ChannelAdapter extends RecyclerView.Adapter<ChannelAdapter.AccountViewHolder> {
 

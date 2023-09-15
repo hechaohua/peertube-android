@@ -14,12 +14,11 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
-package net.schueller.peertube.activity
+package com.driverolder.activity
 
-import androidx.appcompat.app.AppCompatActivity
 import android.annotation.SuppressLint
 import net.schueller.peertube.fragment.VideoPlayerFragment
-import net.schueller.peertube.R
+import com.driverolder.R
 import android.app.RemoteAction
 import android.app.PendingIntent
 import com.google.android.exoplayer2.ui.PlayerNotificationManager
@@ -34,7 +33,7 @@ import android.widget.RelativeLayout
 import android.widget.FrameLayout
 import android.util.TypedValue
 import android.view.WindowManager
-import net.schueller.peertube.service.VideoPlayerService
+import com.driverolder.service.VideoPlayerService
 import net.schueller.peertube.helper.VideoHelper
 import androidx.annotation.RequiresApi
 import android.os.Build

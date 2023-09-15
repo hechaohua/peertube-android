@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
-package net.schueller.peertube.service
+package com.driverolder.service
 
 import android.annotation.SuppressLint
 import android.app.Notification
@@ -36,8 +36,8 @@ import com.google.android.exoplayer2.source.ProgressiveMediaSource
 import com.google.android.exoplayer2.ui.PlayerNotificationManager.MediaDescriptionAdapter
 import android.app.PendingIntent
 import android.app.Service
-import net.schueller.peertube.activity.VideoPlayActivity
-import net.schueller.peertube.activity.VideoListActivity
+import com.driverolder.activity.VideoPlayActivity
+import com.driverolder.activity.VideoListActivity
 import android.graphics.Bitmap
 import android.support.v4.media.session.MediaSessionCompat
 import com.google.android.exoplayer2.ext.mediasession.MediaSessionConnector
@@ -55,8 +55,8 @@ import com.google.android.exoplayer2.*
 import com.google.android.exoplayer2.audio.AudioAttributes
 import com.google.android.exoplayer2.ext.okhttp.OkHttpDataSource
 import com.google.android.exoplayer2.ui.PlayerNotificationManager.NotificationListener
-import net.schueller.peertube.R.drawable
-import net.schueller.peertube.R.string
+import com.driverolder.R.drawable
+import com.driverolder.R.string
 import net.schueller.peertube.model.Video
 import java.lang.Exception
 
